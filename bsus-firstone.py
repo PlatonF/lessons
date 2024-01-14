@@ -1,10 +1,9 @@
-#games = input("What are your favorite activites?")
+
 def input_list(param):
     input_list = input(f"Input your favorite {param} separetad by spaces_ ")
-    processed_list = input_list.split(" ")
-    processed_list = filter(lambda x:  x != '', processed_list)
-    return list(processed_list)
-
+    l = input_list.split(" ")
+    l = [x for x in l if x !='']
+    return l
 
 
 games = input_list("activites")
