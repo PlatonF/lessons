@@ -1,6 +1,6 @@
 
 def input_list(param):
-    input_list = input(f"Input your favorite {param} separetad by spaces_ ")
+    input_list = input(f"Input your favorite {param} separetad by spaces: ")
     l = input_list.split(" ")
     l = [x for x in l if x !='']
     return l
