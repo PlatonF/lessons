@@ -1,5 +1,6 @@
 w = input("age=")
 age = 0
-while(age < w + 1):
+w = w + 1
+while(age < w):
     age = age + 2
     print(age)
