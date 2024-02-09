@@ -11,4 +11,5 @@ def input_float(str):
 
 price = input_float("Input price for 1kg of candy: ")
 for i in range(1, 11):
-    print("Price for {0}kg of candy is {1}".format(i/10, price * i/10))
+    price2 = round(price * i/10, 2)
+    print("Price for {0}kg of candy is {1}".format(i/10, price2))
